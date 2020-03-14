@@ -45,7 +45,7 @@
             var spotcomp=document.getElementById("spots");
             var currspots=this.parentElement.getAttribute("id");
             //create event for spots component to change the spots data
-            spotcomp.emit('reloadspots',{newspots:data.spotgroup,currspots:currspots});
+            spotcomp.emit('reloadspots',{newspots:data.spotgroup,currspots:currspots}); 
           });
         }
       });
